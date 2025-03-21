@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Geschiedenis</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h2>BMI Geschiedenis</h2>
+    <table class="bmi-table">
+        <tr>
+            <th>Datum & Tijd</th>
+            <th>Gewicht (kg)</th>
+            <th>Lengte (cm)</th>
+            <th>BMI</th>
+            <th>Classificatie</th>
+        </tr>
+        {% for record in records %}
+        <tr>
+            <td>{{ record[4] }}</td>
+            <td>{{ record[0] }}</td>
+            <td>{{ record[1] }}</td>
+            <td>{{ record[2] }}</td>
+            <td>{{ record[3] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    <a href="/">Terug naar Home</a>
+</body>
+</html>
