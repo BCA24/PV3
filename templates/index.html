@@ -5,3 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BMI testen BCA</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+    <h2>BMI testen BCA</h2>
+    
+    <form method="POST">
+        <label for="weight">Gewicht (kg):</label>
+        <input type="number" name="weight" step="0.1" required>
+
+        <label for="height">Lengte (cm):</label>
+        <input type="number" name="height" required>
+
+        <button type="submit">Bereken BMI</button>
+    </form>
+
