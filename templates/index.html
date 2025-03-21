@@ -26,3 +26,39 @@
 
     <div class="bmi-bar-container">
         <div class="bmi-bar" style="left: calc({{ ((bmi - 10) / 30) * 100 }}% - 7px);"></div>
+
+    </div>
+
+    <div class="bmi-scale">
+        <span>10</span><span>18.5</span><span>25</span><span>30</span><span>40+</span>
+    </div>
+{% endif %}
+
+<h3>BMI Categorieën</h3>
+<table class="bmi-table">
+    <tr>
+        <th>Type</th>
+        <th>BMI Waarde</th>
+    </tr>
+    <tr style="background-color: #ffcccc;">
+        <td>Ondergewicht</td>
+        <td>&lt; 18.5</td>
+    </tr>
+    <tr style="background-color: #ccffcc;">
+        <td>Gezond Gewicht</td>
+        <td>18.5 - 24.9</td>
+    </tr>
+    <tr style="background-color: #ffe599;">
+        <td>Overgewicht</td>
+        <td>25 - 29.9</td>
+    </tr>
+    <tr style="background-color: #ff9999;">
+        <td>Obesitas</td>
+        <td>30+</td>
+    </tr>
+</table>
+
+
+
+</body>
+</html>
