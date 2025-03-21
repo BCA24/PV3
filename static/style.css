@@ -1,0 +1,115 @@
+.bmi-bar-container {
+    position: relative;
+    width: 80%;
+    max-width: 500px;
+    height: 25px;
+    background: linear-gradient(to right, 
+        red 0%, red 16%,      /* Ondergewicht */
+        orange 18.5%,         /* Lichte overgang naar gezond */
+        green 25%,            /* Gezond gewicht */
+        orange 30%,           /* Overgewicht */
+        red 40%               /* Obesitas */
+    );
+    border-radius: 15px;
+    margin: 20px auto;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+
+.bmi-bar {
+    position: absolute;
+    width: 15px; /* Breder voor betere zichtbaarheid */
+    height: 100%;
+    border-radius: 7px;
+    background-color: black; /* Zichtbare marker */
+    border: 2px solid white;
+    transition: left 0.5s ease-in-out;
+}
+
+.bmi-scale {
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+    margin: auto;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+}
+
+.bmi-table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 16px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.bmi-table th, .bmi-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.bmi-table th {
+    background-color: #444;
+    color: white;
+}
+
+.bmi-bar-container {
+    position: relative;
+    width: 80%;
+    max-width: 500px;
+    height: 25px;
+    background: linear-gradient(to right, 
+        red 0%, red 16%,      /* Ondergewicht */
+        orange 18.5%,         /* Lichte overgang naar gezond */
+        green 25%,            /* Gezond gewicht */
+        orange 30%,           /* Overgewicht */
+        red 40%               /* Obesitas */
+    );
+    border-radius: 15px;
+    margin: 20px auto;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+
+.bmi-bar {
+    position: absolute;
+    width: 15px; /* Breder voor betere zichtbaarheid */
+    height: 100%;
+    border-radius: 7px;
+    background-color: black; /* Zichtbare marker */
+    border: 2px solid white;
+    transition: left 0.5s ease-in-out;
+}
+
+.bmi-scale {
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+    margin: auto;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+}
+
+.bmi-table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 16px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.bmi-table th, .bmi-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.bmi-table th {
+    background-color: #444;
+    color: white;
+}
